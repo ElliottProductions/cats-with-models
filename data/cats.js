@@ -1,7 +1,7 @@
 const cats = [
   {
     id: '1',
-    name: 'Belix',
+    name: 'Felix',
     type: 'Tuxedo',
     url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/200px-Felix_the_cat.svg.png',
     year: 1892,
@@ -10,7 +10,7 @@ const cats = [
   },
   {
     id: '2',
-    name: 'Barfield',
+    name: 'Garfield',
     type: 'Orange Tabby',
     url: 'https://static.wikia.nocookie.net/garfield/images/9/9f/GarfieldCharacter.jpg',
     year: 1978,
@@ -19,7 +19,7 @@ const cats = [
   },
   {
     id: '3',
-    name: 'Buchess',
+    name: 'Duchess',
     type: 'Angora',
     url: 'https://static.wikia.nocookie.net/disney/images/e/eb/Profile_-_Duchess.jpeg',
     year: 1970,
@@ -28,7 +28,7 @@ const cats = [
   },
   {
     id: '4',
-    name: 'Bimpy',
+    name: 'Stimpy',
     type: 'Manx',
     url: 'https://static.wikia.nocookie.net/renandstimpy/images/c/c1/Ren-stimpy-25-anniversar-hp2.png',
     year: 1990,

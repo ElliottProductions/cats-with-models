@@ -10,7 +10,7 @@ describe('cats routes', () => {
     return setup(pool);
   });
 
-  it('/cats should return a list of cats', async () => {
+  it('/catss should return a list of cats', async () => {
     const res = await request(app).get('/cats');
     const expected = cats.map((cat) => {
       return { id: cat.id, name: cat.name };
@@ -27,7 +27,7 @@ describe('cats routes', () => {
       url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/200px-Felix_the_cat.svg.png',
       year: 1892,
       lives: 3,
-      isSidekick: false,
+      issidekick: false,
     };
     expect(res.body).toEqual(felix);
   });
